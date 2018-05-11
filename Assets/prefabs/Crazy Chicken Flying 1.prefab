@@ -275,7 +275,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1751072816194658}
   m_LocalRotation: {x: -0, y: -0.55154544, z: -0, w: 0.83414483}
+<<<<<<< HEAD
   m_LocalPosition: {x: 14.72, y: 4.87, z: 12.37}
+=======
+  m_LocalPosition: {x: 30.5, y: 23.389, z: 4.9}
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
   m_LocalScale: {x: 0.65, y: 0.65, z: 0.65}
   m_Children:
   - {fileID: 4560796024930400}
@@ -560,7 +564,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mi: {fileID: 1751072816194658}
+<<<<<<< HEAD
   eggPrefab: {fileID: 1359180057811896, guid: 97cd8e289b12e1f4ab195bcc7026bafe, type: 2}
+=======
+  dead: {fileID: 82455376406526520}
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
   destroyedTargetPrefab: {fileID: 1751072816194658}
   man: {fileID: 1154857279797752, guid: bb45c0960350f3f4b9cd516b00685c87, type: 2}
 --- !u!114 &114891927280410228

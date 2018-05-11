@@ -4,7 +4,11 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
+<<<<<<< HEAD
   m_CurrentQuality: 5
+=======
+  m_CurrentQuality: 2
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
   m_QualitySettings:
   - serializedVersion: 2
     name: Very Low

@@ -42,6 +42,7 @@ public class Weapon {
 		Shooting.Play ();
 	}
 
+<<<<<<< HEAD
 	public void ShootEgg(Vector3 ShootPoint,Vector3 force,GameObject TargetGo){
 		line.enabled = true;
 		//line.SetPosition (0, gunEnd.position);
@@ -52,4 +53,6 @@ public class Weapon {
 		Shooting.Play ();
 	}
 
+=======
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
 }

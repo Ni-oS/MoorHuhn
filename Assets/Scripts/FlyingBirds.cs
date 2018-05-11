@@ -11,8 +11,13 @@ public class FlyingBirds : MonoBehaviour {
 	private Transform[] wayPoints;
 	int way;
 	//private int health;
+<<<<<<< HEAD
 	private Weapon weapon;
 	public GameObject eggPrefab;
+=======
+	public AudioSource dead;
+	private Weapon weapon;
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
 
 
 	//public GameObject[] healthImages;
@@ -46,6 +51,7 @@ public class FlyingBirds : MonoBehaviour {
 		if(mi.transform.position.z < curDestination.transform.position.z){
 			mi.transform.position = new Vector3( mi.transform.position.x, mi.transform.position.y, mi.transform.position.z+1.0f);
 		}
+<<<<<<< HEAD
 		if(mi.transform.position.x > curDestination.transform.position.x){
 			mi.transform.position = new Vector3(mi.transform.position.x-1.0f, mi.transform.position.y, mi.transform.position.z);
 		}
@@ -55,6 +61,8 @@ public class FlyingBirds : MonoBehaviour {
 		if(mi.transform.position.z > curDestination.transform.position.z){
 			mi.transform.position = new Vector3( mi.transform.position.x, mi.transform.position.y, mi.transform.position.z-1.0f);
 		}
+=======
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
 		if ( mi.transform.position.z - curDestination.transform.position.z < 0.1f && mi.transform.position.x - curDestination.transform.position.x < 0.1f && mi.transform.position.y - curDestination.transform.position.y < 0.1f) {
 			SetRandom ();
 		}
@@ -77,9 +85,17 @@ public class FlyingBirds : MonoBehaviour {
 			//GameObject go = Instantiate (destroyedTargetPrefab, currentTransform.position, currentTransform.rotation);
 		man.GetComponent<TargetManager>().dicsrease();
 			Destroy (gameObject);
+<<<<<<< HEAD
 		//dead.Play ();
+=======
+		dead.Play ();
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
 			//Destroy (go, 5.0f);
 		//}
 	}
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
 }

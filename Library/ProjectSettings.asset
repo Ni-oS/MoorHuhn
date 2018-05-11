@@ -4,7 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
+<<<<<<< HEAD
   productGUID: 80c3d45ed35fe2e48aa4483debff222d
+=======
+  productGUID: 721b3c27f50e679428c40efcbcd9ace7
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -12,7 +16,11 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
+<<<<<<< HEAD
   productName: GIT
+=======
+  productName: New Unity Project (3)
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -564,14 +572,22 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
+<<<<<<< HEAD
   metroPackageName: GIT
+=======
+  metroPackageName: New Unity Project (3)
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
+<<<<<<< HEAD
   metroApplicationDescription: GIT
+=======
+  metroApplicationDescription: New Unity Project (3)
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -639,9 +655,15 @@ PlayerSettings:
   cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
+<<<<<<< HEAD
   cloudProjectId: 7b0e151f-1115-4a7f-b1b9-eef8d57a3133
   projectName: GIT
   organizationId: wath23
+=======
+  cloudProjectId: 
+  projectName: 
+  organizationId: 
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

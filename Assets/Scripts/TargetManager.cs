@@ -13,13 +13,21 @@ public class TargetManager : MonoBehaviour {
 	private int Resp;
 	private Transform respPosition;
 
+<<<<<<< HEAD
 	private int countBirds;
+=======
+	static int countBirds;
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
 
 	void Start(){
 		countBirds = 0;
 		//SetRandom ();
 		//StartCoroutine(waitOfInstantiate());
+<<<<<<< HEAD
 		//InstantiateWalkingTarget ();
+=======
+		InstantiateWalkingTarget ();
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
 
 	}
 	private void SetRandom(){
@@ -29,14 +37,25 @@ public class TargetManager : MonoBehaviour {
 
 
 	public void dicsrease(){
+<<<<<<< HEAD
 		countBirds = countBirds - 1;
 		Debug.Log (countBirds);
+=======
+		countBirds -= 1;
+		Debug.Log (countBirds);
+		//InstantiateWalkingTarget ();
+		//Debug.Log (countBirds);
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
 	}
 
 	public void Update(){
 
 		if(countBirds < 4){
+<<<<<<< HEAD
 
+=======
+			//Invoke ("InstantiateWalkingTarget", 1.2f);
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
 			InstantiateWalkingTarget ();
 			//StartCoroutine(waitOfInstantiate());
 			Debug.Log (countBirds);
@@ -45,9 +64,16 @@ public class TargetManager : MonoBehaviour {
 
 	public void InstantiateWalkingTarget(){
 		SetRandom ();
+<<<<<<< HEAD
 		GameObject walkingTarget = Instantiate (walkingTargetPrefab,respPosition.position, respPosition.rotation);
 		walkingTarget.GetComponent<FlyingBirds>().init (walkingTargetWayPoints);
 		countBirds = countBirds + 1;
+=======
+
+		GameObject walkingTarget = Instantiate (walkingTargetPrefab, respPosition.position, respPosition.rotation);
+		walkingTarget.GetComponent<FlyingBirds>().init (walkingTargetWayPoints);
+		countBirds += 1;
+>>>>>>> 27b1c8ef54964eab18e9575cdbc8851b624af1d7
 
 
 	}
