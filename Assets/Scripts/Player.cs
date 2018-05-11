@@ -1,0 +1,32 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Player : MonoBehaviour
+{
+    private static Player instance;
+	private int health;
+    private void Start()
+    {
+		health = 5;
+        instance = this;
+
+    }
+	private void Update(){
+		if (health <= 0) {
+			Destroy (instance);
+		}
+	}
+    public static Vector3 GetPosition()
+    {
+        return instance.transform.position;
+    }
+
+    public static void SetPosition(Vector3 targetPosition)
+    {
+        instance.transform.position = new Vector3(targetPosition.x, instance.transform.position.y, targetPosition.z);
+    }
+	public static void TakeDamage(){
+		instance.health--;
+	}
+}
